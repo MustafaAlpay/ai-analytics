@@ -1,0 +1,32 @@
+._*
+.DS_Store
+Thumbs.db
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+*S.md
+
+# Environments and builds
+.venv/
+.env
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts
+data/raw/
+data/tmp/
+artifacts/
+
+# ML outputs
+*.ckpt
+*.tensorflow
+*.dll
